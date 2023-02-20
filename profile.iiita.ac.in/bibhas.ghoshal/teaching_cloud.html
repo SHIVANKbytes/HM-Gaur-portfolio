@@ -1,0 +1,1137 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:st1="urn:schemas-microsoft-com:office:smarttags" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 12">
+<meta name="Originator" content="Microsoft Word 12">
+<link rel="File-List" href="index_files/filelist.html">
+<title>Introduction to Cloud and Edge Computing</title>
+</head><body style="tab-interval:.5in" vlink="purple" link="blue" lang="EN-US"><o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceType">
+<o:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="PlaceName">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>isg</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Indranil Sengupta</o:LastAuthor>
+  <o:Revision>158</o:Revision>
+  <o:TotalTime>446</o:TotalTime>
+  <o:Created>2003-07-31T02:32:00Z</o:Created>
+  <o:LastSaved>2013-11-13T17:14:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>673</o:Words>
+  <o:Characters>3839</o:Characters>
+  <o:Company>IIT Kharagpur</o:Company>
+  <o:Lines>31</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>4503</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel="dataStoreItem" href="index_files/item0006.html" target="index_files/props0007.xml">
+<link rel="themeData" href="index_files/themedata.html">
+<link rel="colorSchemeMapping" href="index_files/colorschememapping.html">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>120</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="--"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:navy;
+	mso-font-kerning:0pt;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:normal;
+	text-decoration:underline;
+	text-underline:single;}
+h5
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:navy;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:16.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-unhide:no;
+	mso-style-link:"Body Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:22.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:maroon;
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-unhide:no;
+	mso-style-link:"Body Text Indent Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Title;
+	mso-ansi-font-size:26.0pt;
+	mso-bidi-font-size:26.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#17365D;
+	mso-themecolor:text2;
+	mso-themeshade:191;
+	letter-spacing:.25pt;
+	mso-font-kerning:14.0pt;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Body Text";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+span.BodyTextIndentChar
+	{mso-style-name:"Body Text Indent Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Body Text Indent";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1386414300;
+	mso-list-type:hybrid;
+	mso-list-template-ids:865884146 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1451700927;
+	mso-list-type:hybrid;
+	mso-list-template-ids:610715252 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-unhide:no;
+	border:solid black 1.0pt;
+	mso-border-themecolor:text1;
+	mso-border-alt:solid black .5pt;
+	mso-border-themecolor:text1;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid black;
+	mso-border-insideh-themecolor:text1;
+	mso-border-insidev:.5pt solid black;
+	mso-border-insidev-themecolor:text1;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="56322"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+
+
+
+
+<div class="Section1">
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoBodyText"><span style="font-size:18.0pt;mso-bidi-font-size:12.0pt">Introduction to Cloud and Edge Computing (2-1-1) <o:p></o:p></span></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<h5 style="margin-bottom:12.0pt"><u><span style="mso-fareast-font-family:&quot;Times New Roman&quot;">SPRING
+2022-2023<o:p></o:p></span></u></h5>
+
+<h5 style="margin-bottom:12.0pt"><span style="mso-fareast-font-family:&quot;Times New Roman&quot;"><span style="mso-spacerun:yes"></span> Lecture: Wednesday; Tut and Lab: Friday <u> <o:p></o:p></u></span></h5>
+
+<p class="MsoNormal" style="text-align:center" align="center"><b style="mso-bidi-font-weight:
+normal"><span style="color:#7030A0">Announcements, Assignment submission and Quiz evaluations via Google Classroom<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+color:navy">Course Outline:<o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt"><span class="GramE"><span style="font-size:12.0pt"> 
+</span></span></p>
+    
+<u> Module 1 : Introduction and Fundamental Concepts</u> <br> 
+Cloud Computing Basics - Overview, Architecture, Deployment, Service models - Infrastructure as a Service (I-a-a-S),  
+Platform-as-a-Service (P-a-a-S), Application/Software as a Service 
+(S-a-a-S); Virtualization, Cloud Tools - Software Components, APIs and SDKs; Accessing the Cloud - Cloud Simulator <br> 
+
+<u> Module 2 : Cloud Computing as Distrbuted System Environment</u> <br> 
+Designing applications for Cloud; Web Services and  Service Oriented Architecture; XML, SOAP, WSDL and REST; Managing Data, Openstack and Map Reduce <br>
+ 
+   
+<u> Module 3 : Cloud Computing as a Research Topic</u> <br> Case study with commercial clouds - Microsoft Azure and Google Cloud Platform; Cloud Security, Federated, DOCKER Container; Cloud Computing Challenges; Fog Computing <br>
+    
+    
+<u> Module 4 : Edge Computing </u> <br> Role of Cloud in IoT, IoT Cloud; Edge Computing Basics – Architectures, Applications, Edge Intelligence; Mobile Computing <br><br>
+   
+    
+<p class="MsoNormal"><a name="OLE_LINK1"><b><u><span style="font-size:14.0pt;
+mso-bidi-font-size:12.0pt;color:navy">References:</span></u></b></a><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;color:navy"><o:p></o:p></span></u></b></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+    
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt"> <b>Cloud Computing: Theory and Practice </b> <span class="SpellE"></span>, <i> Dan Marinescu</i>, 3rd Edition, Morgan Kauffman 2022 <a href="http://www.gecg.in/papers/ds5thedn.pdf"><span class="SpellE"></span></a><o:p></o:p></span></p>
+    
+
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt"> <b>Distributed and Cloud Computing : From Parallel processing to Internet of Things </b> <span class="SpellE"></span>, <i> Kai Hwang, Jack Dongarra, Geoffrey.C.Fox</i>, Morgan Kauffman 2011 <a href="http://www.gecg.in/papers/ds5thedn.pdf"><span class="SpellE"></span></a><o:p></o:p></span></p>
+
+<p></p>
+
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt"> <b>Cloud Computing : Principles and Paradigms</b> <span class="SpellE"></span>, Edited by : <i>  Raj Kumar Buyya, James Broberg, Andrzej Goscinski</i>,Wiley 2011
+<a href="https://www.cs.uic.edu/~ajayk/DCS-Book.html"><span class="SpellE"></span></a><o:p></o:p></span></span></p> <br>
+
+<p class="MsoNormal"><a name="OLE_LINK1"><b><u><span style="font-size:12.0pt;
+mso-bidi-font-size:12.0pt;color:navy">Additional Reading ( Selected Research articles from the following Journals and Conference Proceedings )</span></u></b></a><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;color:navy"><o:p></o:p></span></u></b></p>
+
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt">IEEE Transactions on Cloud Computing (TCC) <span class="SpellE">
+
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt">IEEE Internet of Things Journal <span class="SpellE">
+    
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt">IEEE Transactions on Mobile Computing <span class="SpellE">    
+    
+    
+<p class="MsoBodyTextIndent" style="margin-bottom:2.0pt;text-indent:-.25in;
+mso-list:l0 level1 lfo2;tab-stops:list .5in"><!--[if !supportLists]--><span style="font-size:12.0pt"><span style="mso-list:Ignore">7.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="font-size:12.0pt">International Symposium on Cluster, Cloud and Internet Computing <span class="SpellE"> <br> <br>
+
+<p class="MsoNormal"><a name="OLE_LINK1"><b><u><span style="font-size:14.0pt;
+mso-bidi-font-size:12.0pt;color:navy">Grading Policy:</span></u></b></a><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;color:navy"><o:p></o:p></span></u></b></p>  
+
+<span style="color:navy;mso-bidi-font-weight:bold"><o:p></o:p></span><p></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">C1 component : Homework assignments, Lab evaluation, Written test </span><span style="color:navy;mso-bidi-font-weight:
+bold"><o:p></o:p></span></p>
+
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">C2 component : Quiz, Lab and Project evaluation, Term Paper evaluation</span><span style="color:navy;mso-bidi-font-weight:
+bold"><o:p></o:p></span></p>
+
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">C3 component : Lab evaluation, written examination, Term paper and Term project project evaluation </span><span style="color:navy;mso-bidi-font-weight:
+bold"><o:p></o:p></span></p>
+
+</span></span></p><p class="MsoNormal"><a name="OLE_LINK1"><b><u><span style="font-size:12.0pt;
+mso-bidi-font-size:12.0pt;color:navy">Term Project and Term paper:</span></u></b></a><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;color:navy"><o:p></o:p></span></u></b></p>
+    
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">
+<b> Term Project : </b> <br>  The term project will be either an implementation based project involving cloud computing ideas and tools or a reaserach idea that involves cloud computing concepts. The project has to be done in groups (max 6 students allowed per group). The term project ideas and topics will be uploaded on google classroom within the first week of commencement of classes. However, groups will be free to choose their own topic for term project, subject to approval of instructor or TAs</span><span style="color:navy;mso-bidi-font-weight:
+bold"><o:p></o:p></span></p><br>
+    
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">    
+    
+    
+ <b>Term Project submission : </b> Contact the TAs for the detailed problem  statement of your project assignment and the milestones to be achieved 
+during first round and second round of evaluations. <br> If a student does not submit the assignments, his/her grade will remain as <b><i style="mso-bidi-font-style:normal">incomplete. </i></b><span class="SpellE"></span>
+<span style="color:navy;mso-bidi-font-weight:bold"><o:p></o:p></span></span></p>  <br> 
+    
+    
+    
+    
+ <p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold">
+<b> Term Paper (only for M.Tech students) :</b> <br>  The term paper assignments to groups (of two) will be uploaded on Google classroom. <br/> 
+Each group is expected to write a term paper based on the assigned topics, and then review the term paper of another after submission. Thus, you will be exposed to two topics. For Term paper topics and submission related instructions visit the <i>Google Classroom </i> page of the course<o:p></o:p></span></p><p></p>
+
+     <p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold"> 
+
+<b> Term paper submission : </b> Each term paper should follow the following structure. <br/> Section I : Big picture view of the situation -  Issues and Challenges, Problem definition, Types of solutions and evaluation (if any) <br/> Section II : Assigned papers/protocols, their pros and cons, and comparison. <br/> For each algorithm discussed, you must describe the intuition behind the algorithm, give a psuedocode, describe the psuedocode , and show an example (the example must be different from the ones in the paper).
+         Write the paper in your own words. <span style="color:#FF0000"> Plagiarism in any form ( specially cut+paste from other sources without reference) will lead to cancellation of the entire term paper. </span>
+<span style="color:navy;mso-bidi-font-weight:
+bold"><o:p></o:p></span></p>   
+    
+<p class="MsoListParagraphCxSpMiddle" style="margin-left:1.25in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level2 lfo4"><!--[if !supportLists]--><span style="font-family:&quot;Courier New&quot;;mso-fareast-font-family:&quot;Courier New&quot;;
+color:navy;mso-bidi-font-weight:bold"><span style="mso-list:Ignore">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color:black;mso-themecolor:text1;mso-bidi-font-weight:bold"> 
+    
+    
+<b> Term paper review :</b>  You are expected to submit a 3-4 page document that first summarizes the works discussed in the paper (about 2-3 pages) and then evaluates the paper on the following points: <br>
+(1) Organization of the topics <br/>
+(2) Clarity in explaining the algorithm <br/>
+For each of the above points, give a rating between 1 and 5 (5 - Excellent) with a short justification as to why you are giving that rating. <br><br> <br>  
+
+<p class="MsoNormal"><a name="OLE_LINK1"><b><u><span style="font-size:14.0pt;
+mso-bidi-font-size:12.0pt;color:navy">Interesting Links:</span></u></b></a><b><u><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;color:navy"><o:p></o:p></span></u></b></p> <br> 
+
+<p align="left">
+                    <a href="HowtoReadPaper.pdf"> How to Read a Research Paper </a> <br> <br> 
+                
+                      <a href="paper-to-talk.original.pdf"> How to Create a Conference Presentation out of your paper</a> <br>
+                    
+    </p>                   
+                    
+
+<a href="https://www.youtube.com/watch?v=ZTM9GA-4nBA"><span class="SpellE"> </span></a><o:p></o:p><p></p><br>
+
+
+
+
+<p class="MsoBodyTextIndent" style="margin-left:0in"><b><span style="font-size:
+12.0pt"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class="MsoBodyTextIndent"><span style="font-size:11.0pt;color:black;
+mso-themecolor:text1;mso-ansi-language:FR;mso-bidi-font-weight:bold" lang="FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoBodyTextIndent" style="margin-left:0in"><b><span style="font-size:12.0pt;mso-ansi-language:FR" lang="FR"><o:p>&nbsp;</o:p></span></b></p>
+
+<p class="MsoBodyTextIndent" style="margin-top:0in;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in"><b><u><span style="color:navy">Lectures : <o:p></o:p></span></u></b></p>
+The slides provided as lectures and additional resources have been 
+compiled from different sources. I would like to thank all authors who have been referred for 
+their slides and articles. <br> 
+<br>
+
+<table class="MsoTableGrid" style="margin-left:35.6pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid black .5pt;mso-border-themecolor:text1;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt" cellspacing="0" cellpadding="0" border="1">
+ <tbody><tr style="mso-yfti-irow:0">
+  <td style="width:45.0pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="60" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><b><span style="font-size:12.0pt;color:#C00000"><o:p></o:p></span></b></p>
+  </td>
+  <td style="width:202.5pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="270" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><b><span style="font-size:12.0pt;color:#C00000">Topic <o:p></o:p></span></b></p>
+  </td>
+  <td style="width:.75in;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="72" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><b><span style="font-size:12.0pt;color:#C00000"> Additional Resources and Reading <o:p></o:p></span></b></p>
+  </td>
+ 
+ <td style="width:.75in;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="72" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><b><span style="font-size:12.0pt;color:#C00000">Tutorial <o:p></o:p></span></b></p>
+  </td>
+ 
+  <td style="width:.75in;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="72" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><b><span style="font-size:12.0pt;color:#C00000"> Lab Resources and Assignments<o:p></o:p></span></b></p>
+  </td>
+    
+     
+     
+     
+ 
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td style="width:45.0pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
+  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="60" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><span style="font-size:12.0pt;color:black;mso-themecolor:text1;
+  mso-bidi-font-weight:bold">Week 1-2 <o:p></o:p></span></p>
+  </td>
+  <td style="width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="270" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><span class="SpellE">  Introducing Cloud and Edge Computing</span><o:p></o:p></span></p><br><br> 
+  
+    <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Lecture1_Intro.pdf"><span class="SpellE"> Lecture Slide  </span></a><o:p></o:p></span></p><br><br>  
+      
+  </td>
+         
+ 
+  
+  
+<td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top"><br> <br>
+    
+    
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/above_the_clouds.pdf"><span class="SpellE"> Article : <i>Above the clouds  </i> </span></a><o:p></o:p></span></p><br><br> 
+      
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/A_view_of_cloud_computing.pdf"><span class="SpellE"> Article : <i>A View of Cloud Computing</i> </span></a><o:p></o:p></span></p><br><br>     
+ 
+   
+</td>
+
+ <td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top"> <br><br>
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="http://cds.iisc.ac.in/faculty/simmhan/SE252/projects/SE252.Jan15.Project-0.r1.pdf"><span class="SpellE"> Building Simple Web Services </span></a> <br> <br>  Project 0 of the course SE252: Introduction to Cloud Computing (Jan 2015) offered by Prof. Yogesh Simhan, IISc Bangalore<o:p></o:p></span></p><br><br> <br>
+     
+</td>
+ 
+<td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top"> <br><br> 
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="https://classroom.google.com/w/NTExNjk3NjUxODEy/t/all"><span class="SpellE"> Test and Deploy REST based web services <br>   </span></a> <br>  Problem statement available on Google classroom page of the course<o:p></o:p></span></p><br><br>   
+     
+  </td>
+
+</tr>
+     
+     
+  <tr style="mso-yfti-irow:1">
+  <td style="width:45.0pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
+  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="60" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+  center" align="center"><span style="font-size:12.0pt;color:black;mso-themecolor:text1;
+  mso-bidi-font-weight:bold">Week 3-5 <o:p></o:p></span></p>
+  </td>
+  <td style="width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="270" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><span class="SpellE">Virtualization </span><o:p></o:p></span></p><br><br> 
+  
+   <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Lecture2_VM.pdf"><span class="SpellE"> Lecture Slide  </span></a><o:p></o:p></span></p><br><br>  
+      
+    <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Tut_VM_OpenStack.pdf"><span class="SpellE"> Tut : Working with OpenStack   </span></a><o:p></o:p></span></p><br><br> <br>  
+      
+  </td>
+         
+ 
+  
+  
+<td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top"><br> <br>
+    
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Impact_Virtualization_CA_OS.pdf"><span class="SpellE"> Article : <i>A The Impact of Virtualization on Computer Architecture and Operating Systems (Keynote talk by Mendel Rosenblum ASPLOS 2006)  </i> </span></a><o:p></o:p></span></p><br><br> <br>
+           
+   
+ <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Comparison_HW_SW_x86_Virtualization.pdf"><span class="SpellE"> Article : <i>A Comparison of Software and Hardware Techniques for x86 Virtualization (ASPLOS 2006)  </i> </span></a><o:p></o:p></span></p><br><br> <br>
+         
+    
+    
+    
+ 
+     
+      
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/A_view_of_cloud_computing.pdf"><span class="SpellE"> </i> </span></a><o:p></o:p></span></p><br><br>     
+ 
+   
+</td>
+
+ <td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top"> <br><br>
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="https://ubuntu.com/openstack/tutorials"><span class="SpellE"> Open Stack Tutorials  </span></a><o:p></o:p></span></p><br><br> <br><br>
+  </td>
+
+<td style="width:112.5pt;border-top:none;border-left:
+
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt" width="150" valign="top">
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+
+  center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="https://docs.openstack.org/install-guide/"><span class="SpellE">OpenStack Install Guide</span></a><o:p></o:p></span></p> <br> <br><br>
+    
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+
+  center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="https://ubuntu.com/openstack/install"><span class="SpellE">Install Openstack on Ubuntu</span></a><o:p></o:p></span></p> <br> <br>
+      
+    
+    
+  <p class="MsoBodyTextIndent" style="margin-left:0in;text-align:
+
+  center" align="center"><span style="font-size:11.0pt;color:navy;mso-bidi-font-weight:bold"><a href="Cloud_and_Edge_Computing/Lab3_Creating_private_cloud_OpenStack.pdf"><span class="SpellE">Create your own private cloud, operate virtual machines (VMs) uisng OpenStack</span></a><o:p></o:p></span></p>  <br>
+    
+  </td>
+
+</tr>
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+</table></div></o:smarttagtype></o:smarttagtype></o:smarttagtype></body>
+</html>

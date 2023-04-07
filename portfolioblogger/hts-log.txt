@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 15 Mar 2023 09:47:07 at https://customize-portfolio.blogspot.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://customize-portfolio.blogspot.com/ -O1 "C:\My Web Sites\portfolioblogger" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/publication/multirat/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/authors/joanes-grandjean/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/authors/admin/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/authors/mallar-chakravarty/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/publication/brainhack/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/publication/prime-re/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/authors/p.-christiaan-klink/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/publication/cpm/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/publication/medetomidine/index.html (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/default.jpg (from https://customize-portfolio.blogspot.com/)
+09:47:59	Error: 	"Not Found" (404) at link https://customize-portfolio.blogspot.com/mqdefault.jpg (from https://customize-portfolio.blogspot.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 52 seconds : 29 links scanned, 17 files written (906928 bytes overall) [1249063 bytes received at 24020 bytes/sec], 4308518 bytes transferred using HTTP compression in 19 files, ratio 17%
+(11 errors, 0 warnings, 0 messages)

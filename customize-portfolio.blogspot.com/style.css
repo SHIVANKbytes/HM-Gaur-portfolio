@@ -21045,7 +21045,8 @@ http://flickity.metafizzy.co
 
         .buttons-container {
             /* width: 100%; */
-            /* height: 100vh; */
+            height: 10vh;
+            margin-top: 5vh;
             display: flex;
             align-items: center;
             justify-content: center;

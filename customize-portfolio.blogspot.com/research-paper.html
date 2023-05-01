@@ -627,5 +627,102 @@
         </div>
         <div class='clear'></div>
     </div>
+
+
+
+    <script>
+        //<![CDATA[
+        $(document).ready(function () {
+            function relatedPost(g, e, r) {
+                $.ajax({
+                    url: "/feeds/posts/default/-/" + e + "?alt=json-in-script&max-results=" + r, type: "get", dataType: "jsonp", success: function (t) {
+                        for (var u = "", h = '<div class="related">', x = 0; x < t.feed.entry.length; x++) {
+                            for (var z = 0; z < t.feed.entry[x].link.length; z++) { if ("alternate" == t.feed.entry[x].link[z].rel) { u = t.feed.entry[x].link[z].href; break } }
+                            var p = t.feed.entry[x].title.$t; var c = t.feed.entry[x].content.$t; var y = $('<div>').html(c); if (c.indexOf("http://www.youtube.com/embed/") > -1 || c.indexOf("https://www.youtube.com/embed/") > -1) { var d = t.feed.entry[x].media$thumbnail.url, m = d.replace('default.html', 'mqdefault.html'), k = m; } else if (c.indexOf("<img") > -1) { var s = y.find('img:first').attr('src'), v = s.replace('s72-c', 's600'); var k = v; } else { var k = '../1.bp.blogspot.com/-eAeO-DYJDws/Vkqtj4HFBFI/AAAAAAAAB0o/Q5OLsyONXM0/s1600-r/nth.png'; }
+                            h += '<li><div class="related-thumb"><a class="related-img" href="' + u + '" style="background:url(' + k + ') no-repeat center center;background-size: cover"/></div><h3 class="related-title"><a href="' + u + '">' + p + '</a></h3></li>'
+                        }
+                        h += '</div>', g.html(h);
+                    }
+                })
+            }
+            $("#related-posts").each(function () { var g = $(this), e = g.text(), r = 3; relatedPost(g, e, r); });
+        });
+ //]]>
+    </script>
+    <script type='text/javascript'>
+        /*<![CDATA[*/
+        $(window).bind("load", function () {
+            jQuery("#loader").fadeOut("slow");
+            jQuery("#preloader").delay(0).fadeOut();
+        });
+  /*]]>*/
+    </script>
+    <script type='text/javascript'>
+        //<![CDATA[
+
+        ! function (o) {
+            o.fn.lazyyard = function (n) {
+                return n = o.extend({
+                    onScroll: !0
+                }, n), this.each(function (t, c, e) {
+                    var r = o(this),
+                        l = o(window),
+                        a = r.attr("src"),
+                        h = "w" + Math.round(r.width() + r.width() / 10) + "-h" + Math.round(r.height() + r.height() / 10) + "-p-k-no-nu";
+
+                    function s() {
+                        var o = new Image;
+                        o.onload = function () {
+                            r.attr('src', '' + this.src + '').addClass("lazy-yard")
+                        }, o.src = t
+                    }
+                    a.match("resources.blogblog.com") && (a = "undefined" != typeof noThumbnail ? noThumbnail : "//1.bp.blogspot.com/-rI4UCIrwEI4/YN3nGkf0nCI/AAAAAAAAAD0/DQ6fW7eCps8NL7S0oh374KFg1MsWUf2GQCLcBGAsYHQ/s72-c/ptb-nth.png"), a.match("blogger.googleusercontent.com") && a.match("=") && (e = a.split("="), a = e[1] && "" != e[1].trim() ? e[0] + "=w72-h72-p-k-no-nu" : a), a.match("blogger.googleusercontent.com") && !a.match("=") && (a += "=w72-h72-p-k-no-nu"), t = a.match("/s72-c") ? a.replace("/s72-c", "/" + h) : a.match("/w72-h") ? a.replace("/w72-h72-p-k-no-nu", "/" + h) : a.match("=w72-h") ? a.replace("=w72-h72-p-k-no-nu", "=" + h) : a, 1 == n.onScroll ? l.on("load resize scroll", function o() {
+                        l.scrollTop() + l.height() >= r.offset().top && (l.off("load resize scroll", o), s())
+                    }).trigger("scroll") : l.on("load", function o() {
+                        l.off("load", o), s()
+                    }).trigger("load")
+                })
+            }
+        }(jQuery);
+
+        $(function () {
+            $('.post-thumb').lazyyard();
+
+        });
+//]]>
+    </script>
+    <!-- Facebook SDK -->
+    <script type='text/javascript'>
+        //<![CDATA[
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = '../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+//]]>
+    </script>
+
+    <script type="text/javascript" src="../www.blogger.com/static/v1/widgets/1163011050-widgets.js"></script>
+    <script type='text/javascript'>
+        window['__wavt'] = 'AOuZoY4A3BTOaJfN9hHTWwqfPI39gCI76Q:1678853699387'; _WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1719790006368547322', 'index.html', '1719790006368547322');
+        _WidgetManager._SetDataContext([{ 'name': 'blog', 'data': { 'blogId': '1719790006368547322', 'title': 'Prof. H.M Gaur', 'url': 'https://customize-portfolio.blogspot.com/', 'canonicalUrl': 'https://customize-portfolio.blogspot.com/', 'homepageUrl': 'https://customize-portfolio.blogspot.com/', 'searchUrl': 'https://customize-portfolio.blogspot.com/search', 'canonicalHomepageUrl': 'https://customize-portfolio.blogspot.com/', 'blogspotFaviconUrl': 'https://customize-portfolio.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Prof. H.M Gaur - Atom\x22 href\x3d\x22https://customize-portfolio.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Prof. H.M Gaur - RSS\x22 href\x3d\x22https://customize-portfolio.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Prof. H.M Gaur - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/1719790006368547322/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/11765561827710869739\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/c5a749d7a56ef555', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'sharing': { 'platforms': [{ 'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': '' }, { 'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook' }, { 'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog' }, { 'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter' }, { 'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest' }, { 'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email' }], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e' }, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Prof. H.M Gaur' } }, { 'name': 'features', 'data': {} }, { 'name': 'messages', 'data': { 'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link' } }, { 'name': 'template', 'data': { 'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true } }, { 'name': 'view', 'data': { 'classic': { 'name': 'classic', 'url': '?view\x3dclassic' }, 'flipcard': { 'name': 'flipcard', 'url': '?view\x3dflipcard' }, 'magazine': { 'name': 'magazine', 'url': '?view\x3dmagazine' }, 'mosaic': { 'name': 'mosaic', 'url': '?view\x3dmosaic' }, 'sidebar': { 'name': 'sidebar', 'url': '?view\x3dsidebar' }, 'snapshot': { 'name': 'snapshot', 'url': '?view\x3dsnapshot' }, 'timeslide': { 'name': 'timeslide', 'url': '?view\x3dtimeslide' }, 'isMobile': false, 'title': 'Prof. H.M Gaur', 'description': 'This photo is Dr. HM Gaur', 'url': 'https://customize-portfolio.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false } }]);
+        _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList210', 'menu', document.getElementById('LinkList210'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList230', 'header social widget', document.getElementById('LinkList230'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'main', document.getElementById('HTML4'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'main', document.getElementById('HTML3'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'main', document.getElementById('HTML2'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'main', document.getElementById('HTML1'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), { 'cmtInteractionsEnabled': false, 'navMessage': 'No posts.', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/4192097021-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/77523928-lightbox_bundle.css' }, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'Contact Widget', document.getElementById('ContactForm1'), { 'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '1719790006368547322', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'contactFormToken': 'AOuZoY5b73BBseOt1VzGKb2BiAByNc1SmQ:1678853699387', 'submitUrl': 'https://www.blogger.com/contact-form.do' }, 'displayModeFull'));
+        _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList236', 'Footer social widget', document.getElementById('LinkList236'), {}, 'displayModeFull'));
+    </script>
+
+
+    
 </body>
 </html>
